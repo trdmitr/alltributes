@@ -14,3 +14,19 @@
     cursor: pointer;
     border-radius: 5px;
 }
+
+.linkBtn{ 
+    /* position: absolute;
+    top: 0%; */
+    width: 450px;
+    font-size: 2rem;
+    font-family:courier;
+    background:#f00000;
+    color:#ffffff; 
+    padding: 15px 20px;
+    border: 2px solid #00000f;
+    border-radius: 8px;
+     }
+   .button6:hover {
+    box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3), 0 5px 21px 0 rgba(0,0,0,0.18);
+   }

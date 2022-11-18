@@ -3,7 +3,7 @@ import { useParams } from "react-router";
 import { useNavigate } from 'react-router-dom'
 import cl from '../UI/Pub.module.css'
 import classes from './TribOne.module.css'
-
+import { LinkButton } from '../UI/Buttons/LinkButton';
 import BackButton from '../UI/Buttons/BackButton'
 
 const TribOne = ({ tributes }) => {
@@ -22,13 +22,14 @@ const TribOne = ({ tributes }) => {
     return  currSings.map((currSing) =>   
    <div className={classes.mediaSong} key={currSing.id}> 
     <img className={classes.mediaImage} src={currSing.Title} width={80} alt={currSing.Name} />
-      <div className= {classes.headerSong} >
-  <h2>{currSing.Name}</h2></div>
+      {/* <div className= {classes.headerSong} >
+  <h2>{currSing.Name}</h2></div> */}
+  <LinkButton>{currSing.Name}</LinkButton>
   <a className={classes.linkTo}  href={currSing.link} target="_blank" rel="noopener noreferrer"> Web-версия </a>
   
-  /* <div>
+  <div>
   <img className={classes.tziImage} src={currSing.Photo} width={80} alt="Цитаты Пикник"/>
-  </div> */
+  </div> 
   
   </div>);
   }, [currSings])

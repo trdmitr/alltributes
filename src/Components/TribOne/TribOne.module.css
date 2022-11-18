@@ -7,8 +7,9 @@
     display: flex;
     flex: 1 1 auto;
     flex-wrap: wrap;
+    flex-flow: column;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     height: 900px;
     padding: 0.5em;
     background-color: #330000;
@@ -17,7 +18,7 @@
     background-size: cover;
     background-attachment: fixed;
     background-size: cover;
-    border-radius: 0.5em;
+    /* border-radius: 0.5em; */
     object-fit: cover;
     vertical-align: middle;
     flex-direction: column;
