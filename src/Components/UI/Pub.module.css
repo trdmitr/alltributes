@@ -1,7 +1,7 @@
 .tribute_app {
     position: relative;
     width: 32rem;
-    height: 64rem;
+    /* height: 64rem; */
     margin: auto;
     border: 16px #000 solid;
     border-top-width: 60px;
@@ -51,4 +51,10 @@
   
   .tribute_app .content::-webkit-scrollbar {
     width: 1px;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 600px) {
+    .row {
+    max-height: 28rem;
+    }
   }
