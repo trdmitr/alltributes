@@ -124,7 +124,7 @@ border-radius: 0.5em;
      margin: 0 1.5em 1.5em 0;
      /* width: calc(50% - 4.5em); */
      height: 12em;
-    padding: 1.5em;
+    padding: 1.4em;
     background-color: #eee;
     border-radius: 0.5em;
     box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3), 0 5px 21px 0 rgba(0,0,0,0.18);
@@ -172,4 +172,8 @@ border-radius: 0.5em;
 
 .media-body h5 {
     margin-top: 1px;
+}
+.media-body p {
+    padding-bottom: 1em;
+    margin-bottom: 1em;
 }
