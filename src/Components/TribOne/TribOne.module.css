@@ -123,6 +123,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
         3px -3px 2px #BBB;
       color: rgb(9, 19, 27);
       transition: all 1s;
+      cursor: pointer;
       }
       a:hover {
         color: rgb(226, 137, 21);

@@ -25,7 +25,7 @@ Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vRbUS2ZPwRDZku4EiyLz
 
   const tributes = Array.from(data);
 
-  console.log(tributes)
+  // console.log(tributes)
   return (
     <div className="App">
        
