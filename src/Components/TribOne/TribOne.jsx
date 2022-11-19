@@ -28,7 +28,7 @@ const TribOne = ({ tributes }) => {
   <a className={classes.linkTo}  href={currSing.link} target="_blank" rel="noopener noreferrer"> {currSing.Name} </a>
   
   <div>
-  <img className={classes.tziImage} src={currSing.Photo} width={80} alt="Цитаты Пикник"/>
+  <img className={classes.tziImage} src={currSing.Photo} width={80} alt="Трибьюты Подземки"/>
   </div> 
   
   </div>);

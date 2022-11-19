@@ -130,7 +130,10 @@ border-radius: 0.5em;
     box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3), 0 5px 21px 0 rgba(0,0,0,0.18);
 }
 
-
+.media:hover{
+    cursor: pointer;
+    transform: translate(15px, -5px);
+  }
 /* .media:nth-child(odd) {
      clear: left;
  } */
