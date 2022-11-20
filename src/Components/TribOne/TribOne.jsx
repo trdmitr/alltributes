@@ -5,6 +5,7 @@ import cl from '../UI/Pub.module.css'
 import classes from './TribOne.module.css'
 import { LinkButton } from '../UI/Buttons/LinkButton';
 import BackButton from '../UI/Buttons/BackButton'
+import Img from '../Img';
 
 const TribOne = ({ tributes }) => {
   const navigate = useNavigate();
@@ -21,10 +22,9 @@ const TribOne = ({ tributes }) => {
   const listContent = useMemo(() => {         
     return  currSings.map((currSing) =>   
    <div className={classes.mediaSong} key={currSing.id}> 
-    <img className={classes.mediaImage} src={currSing.Title} width={80} alt={currSing.Name} />
-      {/* <div className= {classes.headerSong} >
-  <h2>{currSing.Name}</h2></div> */}
-  {/* <LinkButton>{currSing.Name}</LinkButton> */}
+    {/* <img className={classes.mediaImage}
+     src={currSing.Title} width={80} alt={currSing.Name} /> */}
+     <Img  imgUrl={currSing.Title} imgAlt={currSing.Name} /> 
   <a className={classes.linkTo}  href={currSing.link} target="_blank" rel="noopener noreferrer"> {currSing.Name} </a>
   
   <div>
