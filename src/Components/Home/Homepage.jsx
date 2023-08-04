@@ -3,6 +3,7 @@ import cl from '../UI/Pub.module.css'
 import classes from "./Homepage.module.css"
 // import './Homepage.css'
 import { useNavigate } from 'react-router-dom'
+import AddToHomeScreenButton from '../AddToHomeScreenButton/AddToHomeScreenButton'
 
 
 const Homepage = ({ tributes }) => {
@@ -32,6 +33,7 @@ const Homepage = ({ tributes }) => {
         <div className={classes.container}>
           <header>
             <h1>Все трибьюты</h1>
+            <AddToHomeScreenButton/>
           </header>
           <main className={`${classes.main} ${classes.clearfix}`}>
             <h2>Выбираем!</h2>

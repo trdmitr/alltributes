@@ -1,0 +1,8 @@
+.btn {
+    font-size: medium;
+    color: rgb(38, 117, 185);
+    /* margin-bottom: 4em; */
+    background-color: aqua;
+    padding: 1em;
+    border-radius: 1em;
+}
